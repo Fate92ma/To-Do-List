@@ -1,0 +1,135 @@
+/*
+
+Template Name: To-Do List
+Template Url: https://fate92ma.github.io/To-Do-List
+Contact Me: fatema131khaled@gmail.com
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box
+}
+
+body {
+    background: #91d1d3c2;
+    font-family: "Roboto"
+}
+
+/* Start Styling */
+
+main {
+    background: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .3);
+    color: mediumblue;
+    padding: 30px;
+    width: 50%;
+    margin: 75px auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px
+}
+
+#input {
+    outline: 0;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px auto;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-family: "Roboto"
+}
+
+li {
+    background: #eee;
+    border-radius: 4px;
+    border: 2px solid #91d1d3c2;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between
+}
+
+li i {
+    color: red;
+    cursor: pointer
+}
+
+div {
+    display: flex
+}
+
+button {
+    background: #91d1d3c2;
+    outline: 0;
+    color: mediumblue;
+    cursor: pointer;
+    border: 0;
+    font-size: 14px;
+    padding: 7px 18px;
+    font-family: 'Roboto';
+    display: block;
+    margin: auto
+}
+
+button#clear {
+    color: white;
+    background: red
+}
+
+small {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    color: darkred;
+    font-weight: bold;
+    padding: 10px
+}
+
+@media (max-width: 1000px) {
+    main {
+        width: 60%
+    }
+}
+
+@media (max-width: 800px) {
+    main {
+        width: 70%
+    }
+}
+
+@media (max-width: 700px) {
+    main {
+        width: 80%
+    }
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 96%
+    }
+
+    h2 {
+        font-size: 24px
+    }
+}
+
+@media (max-width: 400px) {
+    main {
+        padding: 30px 10px
+    }
+}
+
+/* End Styling */
